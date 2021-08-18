@@ -74,11 +74,16 @@ p{
 
 .btn{
     display: inline-block;
-    background-color: lightskyblue;
-    color:grey;
+    background-color: #ff523b;
+    color: #fff;
     padding: 10px 20px;
     margin: 20px 00px;
     border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background: #563434;
 }
 
 .header{
